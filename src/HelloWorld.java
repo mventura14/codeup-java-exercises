@@ -4,5 +4,59 @@ public class HelloWorld {
         /*Console.log equivalent*/
         /*Strings must be in double quotes ""*/
         System.out.println("Hello World");
+
+        /*-- 1 --*/
+        int myFavoriteNumber = 20;
+        System.out.println(myFavoriteNumber);
+
+        /*-- 2 --*//*-- 3 --*//*-- 4 --*/
+//        String myString = "Just a String";
+//        String myString = "m";
+        String myString = "3.14159";
+        System.out.println(myString);
+
+        /*-- 5 --*//*-- 6 --*/
+//        long myNumber = 3.14;
+        /*-- 7 --*/
+//        long myNumber = 123L;
+        /*-- 8. Different data types are not compatible --*/
+//        long myNumber = 123;
+        /*-- 9 --*/
+//        float myNumber = (float) 3.14;
+        float myNumber = 3.14F;
+        System.out.println(myNumber);
+
+        /*-- 10 --*/
+     /* int x = 5;
+        System.out.println(x++);
+        System.out.println(x);*/
+
+        /*int x = 5;
+        System.out.println(++x);
+        System.out.println(x);*/
+
+        /*-- 11 --*/
+//        string class = "ff";  Its mad at me
+
+        /*-- 12 --*/
+       /* String theNumberThree = "three";
+        Object o = theNumberThree;
+        int three = (int) o;*/
+
+       /* int three = (int) "three";*/
+
+        /*-- 13 --*/
+       /*   int x = 4;
+            x += 5;
+        */
+
+        /*int x = 3;
+        int y = 4;
+        y = y * x;
+
+        int x = 10;
+        int y = 2;
+        x = x / y;
+        y = y - x;*/
     }
 }
