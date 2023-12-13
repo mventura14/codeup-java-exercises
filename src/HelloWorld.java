@@ -9,18 +9,28 @@ public class HelloWorld {
         int myFavoriteNumber = 20;
         System.out.println(myFavoriteNumber);
 
-        /*-- 2 --*//*-- 3 --*//*-- 4 --*/
-//        String myString = "Just a String";
-//        String myString = "m";
-        String myString = "3.14159";
+        /*-- 2 --*/
+        String myString = "Just a String";
+
+        /*-- 3 --*/
+//      myString = 'n';
+
+        /*-- 4 --*/
+//      myString = 3.14159;
         System.out.println(myString);
 
-        /*-- 5 --*//*-- 6 --*/
-//        long myNumber = 3.14;
+        /*-- 5 --*/
+//        long myNumber;
+
+        /*-- 6 --*/
+//        myNumber = 3.14;
+
         /*-- 7 --*/
-//        long myNumber = 123L;
-        /*-- 8. Different data types are not compatible --*/
-//        long myNumber = 123;
+//        myNumber = 123L;
+
+        /*-- 8 --*/
+//        myNumber = 123;
+
         /*-- 9 --*/
 //        float myNumber = (float) 3.14;
         float myNumber = 3.14F;
@@ -50,13 +60,17 @@ public class HelloWorld {
             x += 5;
         */
 
-        /*int x = 3;
+      /*  int x = 3;
         int y = 4;
-        y = y * x;
+        y *= x;*/
 
-        int x = 10;
+       /* int x = 10;
         int y = 2;
-        x = x / y;
-        y = y - x;*/
+        x /= y;
+        y -= x;*/
+
+        /*-- 14 --*/
+
+//        int num = Integer.MAX_VALUE + 1
     }
 }
