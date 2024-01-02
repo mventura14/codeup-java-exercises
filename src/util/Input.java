@@ -13,19 +13,19 @@ public class Input {
 //        input = "";
     }
 
-    public String getString() {
-        System.out.print("Enter a String: ");
+    public String getString(String prompt) {
+        System.out.print(prompt);
         return this.scanner.nextLine();
     }
 
-    public boolean yesNo(){
-        System.out.print("Enter Yes Variants: y, yes: ");
+    public boolean yesNo(String prompt){
+        System.out.print(prompt);
         String input = scanner.nextLine();
         return input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes");
     }
 
-    public int getInt(int min, int max){
-        System.out.printf("Input a number between %d & %d: ", min, max);
+    public int getInt(String prompt, int min, int max){
+        System.out.printf(prompt, min, max);
         String input = scanner.nextLine();
 
         while(!isNumeric(input) || Integer.parseInt(input) < min || Integer.parseInt(input) > max){
@@ -35,9 +35,9 @@ public class Input {
         return Integer.parseInt(input);
     }
 
-    public int getInt(){
+    public int getInt(String prompt){
 
-        System.out.print("Input an Integer: ");
+        System.out.print(prompt);
         String input = scanner.nextLine();
 
         while(!isNumeric(input)){
@@ -58,8 +58,8 @@ public class Input {
         }
     };
 
-    public double getDouble(double min, double max){
-        System.out.printf("Input a number between %f & %f: ", min, max);
+    public double getDouble(String prompt, double min, double max){
+        System.out.printf(prompt, min, max);
         String input = scanner.nextLine();
 
         while(!isNumeric(input) || Double.parseDouble(input) < min || Double.parseDouble(input) > max){
@@ -69,9 +69,9 @@ public class Input {
         return Double.parseDouble(input);
     }
 
-    public double getDouble(){
+    public double getDouble(String prompt){
 
-        System.out.print("Input an Double: ");
+        System.out.print(prompt);
         String input = scanner.nextLine();
 
         while(!isNumeric(input)){
